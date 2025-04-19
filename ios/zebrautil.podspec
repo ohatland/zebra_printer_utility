@@ -30,5 +30,5 @@ A flutter plugin for working with zebra printers
   s.vendored_libraries = 'libZSDK_API.a'
   s.frameworks         = 'ExternalAccessory', 'QuartzCore'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework ExternalAccessory -framework QuartzCore -lZSDK_API' }
-  s.header_search_paths = '"${PODS_TARGET_SRCROOT}"'ß
+  s.header_search_paths = '"${PODS_TARGET_SRCROOT}"'
 end
