@@ -17,10 +17,10 @@ A flutter plugin for working with zebra printers
   s.public_header_files = 'Classes/ZebraUtilPlugin.h'
   s.dependency 'Flutter'
   s.platform = :ios, '8.0'
-
   
-#  s.source_files = 'Classes//*{.h,.a,.swift,.mm,.m,.hpp}'
-#  s.resources = 'Resources//'
+  
+  #  s.source_files = 'Classes//*{.h,.a,.swift,.mm,.m,.hpp}'
+  #  s.resources = 'Resources//'
   s.static_framework = true
   
   # Flutter.framework does not contain a i386 slice. Only x86_64 simulators are supported.
@@ -30,4 +30,5 @@ A flutter plugin for working with zebra printers
   s.vendored_libraries = 'libZSDK_API.a'
   s.frameworks         = 'ExternalAccessory', 'QuartzCore'
   s.xcconfig = { 'OTHER_LDFLAGS' => '-framework ExternalAccessory -framework QuartzCore -lZSDK_API' }
+  s.header_search_paths = '"${PODS_TARGET_SRCROOT}"'ß
 end
