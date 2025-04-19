@@ -14,7 +14,7 @@ A flutter plugin for working with zebra printers
   s.author           = { 'Anthony Rubio' => 'rubionn27@gmail.com' }
   s.source           = { :path => '.' }
   s.source_files = 'Classes/**/*.{m,swift}', 'Classes/ZebraUtilPlugin.h'
-  s.public_header_files = 'Classes/ZebraUtilPlugin.h' s
+  s.public_header_files = 'Classes/ZebraUtilPlugin.h'
   s.dependency 'Flutter'
   s.platform = :ios, '8.0'
 
